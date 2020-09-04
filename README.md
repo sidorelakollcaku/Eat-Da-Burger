@@ -27,4 +27,4 @@ Then all thats left is to **Eat-Da-Burger**
 ## Screenshot
 Here is a screenshot of the App
 <br>
-![Eat-Da-Burger](https://github.com/sidorelakollcaku/Eat-Da-Burger/blob/master/public/assets/images/Screen%20Shot%202020-09-04%20at%203.22.22%20PM.png)
+![Eat-Da-Burger]!(https://github.com/sidorelakollcaku/Eat-Da-Burger/blob/master/public/assets/images/Screen%20Shot%202020-09-04%20at%203.22.22%20PM.png)
