@@ -16,11 +16,11 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 
 app.set("view engine", "handlebars");
 //imports routes give server access
-var routes = require("../Eat-Da-Burger/controllers/burgers_controller");
+var routes = require("./controllers/burgers_controller.js");
 
 app.use(routes);
 //start server 
 app.listen(PORT, function () {
   //log (server-side) when server starts
-  console.log("Server listening on PORT:" + PORT);
+  console.log("Server listening on PORT: " + PORT);
 });
