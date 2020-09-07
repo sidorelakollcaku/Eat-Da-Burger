@@ -16,7 +16,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 
 app.set("view engine", "handlebars");
 //imports routes give server access
-var routes = require("../Eat-Da-Burger/controllers/burgers_controller.js");
+var routes = require("../Eat-Da-Burger/controllers/burgers_controller");
 
 app.use(routes);
 //start server 
