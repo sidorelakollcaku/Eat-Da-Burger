@@ -2,15 +2,15 @@
 var mysql = require("mysql");
 
 if (process.env.JAWSDB_URL) {
-  var connection = mysql.createConnection(process.env.JAWSDB_URL);
+  var connection = mysql.createonnection(process.env.JAWSDB_URL);
 }
 else {
   connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    port: 3306,
-    password: "password",
-    database: "burgers_db"
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    port: process.env.DB_PORT,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE
   });
 }
 
