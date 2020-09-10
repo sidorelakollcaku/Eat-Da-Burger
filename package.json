@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/sidorelakollcaku/Eat-Da-Burger#readme",
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^8.2.0",
+=======
+>>>>>>> d5387fb37a938d75cec6e9c5b9de2e7bde26dc42
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "method-override": "^3.0.0",
